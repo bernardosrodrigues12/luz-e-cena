@@ -10,7 +10,7 @@ const Header = () => {
     <header>
       <HeaderList>
         <HeaderListItem>
-          <Logo src="../../../public/assets/logo/logo (1).png" />
+          <Logo src="../../../public/assets/logo/LogoPreta.png" />
         </HeaderListItem>
         <HeaderListItem>
           <HeaderLinks />
