@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Link.module.css'
 
-const index = ({ children, ...rest }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
+const Link = ({ children, ...rest }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
   return <a className={styles.link} {...rest}>{children}</a>
 
 }
 
-export default index
+export default Link

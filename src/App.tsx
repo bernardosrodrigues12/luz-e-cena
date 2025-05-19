@@ -1,5 +1,5 @@
 import Banner from "./components/Banner";
-import Link from "./components";
+import Link from "./components/Link";
 
 function App() {
   return (
