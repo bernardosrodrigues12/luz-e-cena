@@ -1,19 +1,19 @@
-import React from 'react'
-import styles from './SelectorGroup.module.css'
+import React from "react";
+import styles from "./SelectorGroup.module.css";
 
 interface SelectorGroup extends React.SelectHTMLAttributes<HTMLSelectElement> {
-    icon?: React.ReactNode
+  icon?: React.ReactNode;
 }
 
 const SelectorGroup = ({ icon, children, ...rest }: SelectorGroup) => {
   return (
     <div className={styles.container}>
-        icon $$ <div className={styles.icon}>{icon}</div>
-        <select className={styles.selector} {...rest}>
-            {children}
-        </select>
+      {icon && <div className={styles.icon}>{icon}</div>}
+      <select className={styles.selector} {...rest}>
+        {children}
+      </select>
     </div>
-  )
-}
+  );
+};
 
-export default SelectorGroup
+export default SelectorGroup;
