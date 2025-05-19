@@ -1,0 +1,9 @@
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-text);
+  font-size: var(--font-size-m);
+}
