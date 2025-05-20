@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# 💡 Luz e Cena
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Luz e Cena is a cinema-themed web application built with Angular. It delivers a modern, responsive interface where users can explore current movies, check out popcorn combo deals, and subscribe to a newsletter. The project showcases the use of Angular's reactive and internationalization features.
 
-Currently, two official plugins are available:
+## 👨‍💻 Technologies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div style="display: inline_block"></br>
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+</div>
 
-## Expanding the ESLint configuration
+#### ✨ Features: 
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🎥 Cinema Homepage: Displays a header, banner, and a grid with current movies.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- 🍿 Popcorn Combos: Highlights available popcorn combo offers below the movie listings.
+
+- ✉️ Newsletter Subscription: Users can enter their email to subscribe for updates.
+
+- 📱 Responsive Design: Fully responsive for both desktop and mobile experiences.
+
+- 🧩 Reusable Components: UI is built using clean and modular React components.
+
+---
+
+### ✅ Prerequisites: 
+
+1. 📦 Clone the repo:
+``` bash
+git clone https://github.com/bernardosrodrigues12/luz-e-cena.git
+cd luz-e-cena
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. 📥 Install dependencies:
+``` bash
+npm install
 ```
+
+3. ⏯️ Install json-server
+``` bash
+npm install -g json-server
+```
+Open http://localhost:3001/movies in your browser 🚀
+
+3. ▶️ Run the app:
+``` bash
+npm run dev
+```
+Open http://localhost:5173 in your browser 🚀
+
+---
+
+This was made with Alura
+
+[Certificate](https://cursos.alura.com.br/course/react-desenvolva-aplicacoes-tipadas-escalaveis-typescript)
+
+[Figma](https://www.figma.com/design/utE4vAmzbryvb6q4tcgL4F/React--Criando-uma-aplica%C3%A7%C3%A3o-do-zero-com-TS-%7C-Luz---Cena--Community-?node-id=57-629&t=yrKlqYFJjx4ePTtg-0)
+
