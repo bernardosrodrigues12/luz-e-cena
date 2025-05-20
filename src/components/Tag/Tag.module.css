@@ -9,23 +9,23 @@
 }
 
 .twoD {
-  background-color: var(--cinza-claro);
+  background-color: var(--ligth-gray);
 }
 
 .threeD {
-  background-color: var(--cinza-medio);
+  background-color: var(--medium-gray);
 }
 
 .free {
-  background-color: var(--verde);
+  background-color: var(--green);
 }
 
 .ten {
-  background-color: var(--azul);
+  background-color: var(--blue);
 }
 
 .twelve {
-  background-color: var(--amarelo);
+  background-color: var(--yellow);
 }
 
 .fourteen {
@@ -33,5 +33,5 @@
 }
 
 .sixteen {
-  background-color: var(--vermelho);
+  background-color: var(--red);
 }
