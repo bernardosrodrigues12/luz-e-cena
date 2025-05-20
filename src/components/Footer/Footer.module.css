@@ -1,0 +1,66 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 252px;
+  background-color: var(--black);
+}
+
+.footer_infos {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  gap: var(--gap-xl);
+  height: 128px;
+  color: var(--light-gray);
+}
+
+.logo {
+  width: 30%;
+}
+
+.operation,
+.institucional,
+.networks {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  color: var(--light-gray);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-title);
+  font-weight: 400;
+}
+
+.anchor {
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+.anchor:hover {
+  color: var(--white);
+  transform: scale(1.1);
+}
+
+.icons {
+  display: flex;
+  gap: var(--gap-xs);
+  color: var(--blue);
+  font-size: var(--font-size-m);
+}
+
+.icon {
+  color: var(--blue);
+}
+
+.development {
+  padding: var(--padding-m) var(--padding-s);
+  background-color: var(--light-gray);
+  color: var(--black);
+  text-align: center;
+  font-family: var(--font-text);
+  font-weight: 400;
+  font-size: var(--font-size-m);
+}
