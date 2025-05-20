@@ -11,5 +11,5 @@ export interface Movie {
     category: Category
     censorship: Censorship,
     genre: string;
-    duration: string;
+    duration: number;
 }
