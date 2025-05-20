@@ -7,8 +7,8 @@
             "title": "Amanhecer",
             "category": "2D",
             "censorship": "Free",
-            "genero": "Romance",
-            "duracao": 90
+            "genre": "Romance",
+            "duration": 90
         },
         {
             "id": 2,
@@ -17,8 +17,8 @@
             "title": "Amigo da sombra",
             "category": "2D",
             "censorship": "12 years",
-            "genero": "Suspense",
-            "duracao": 110
+            "genre": "Suspense",
+            "duration": 110
         },
         {
             "id": 3,
@@ -27,8 +27,8 @@
             "title": "Amigo do bosque mágico",
             "category": "2D",
             "censorship": "Free",
-            "genero": "Animação",
-            "duracao": 60
+            "genre": "Animação",
+            "duration": 60
         },
         {
             "id": 4,
@@ -37,8 +37,8 @@
             "title": "Caminho para o abismo",
             "category": "2D",
             "censorship": "14 years",
-            "genero": "Horror",
-            "duracao": 103
+            "genre": "Horror",
+            "duration": 103
         },
         {
             "id": 5,
@@ -47,8 +47,8 @@
             "title": "Desastres do Escritório",
             "category": "2D",
             "censorship": "Free",
-            "genero": "Comédia",
-            "duracao": 85
+            "genre": "Comédia",
+            "duration": 85
         },
         {
             "id": 6,
@@ -57,8 +57,8 @@
             "title": "Mestres do Futuro",
             "category": "2D",
             "censorship": "Free",
-            "genero": "Documentário",
-            "duracao": 120
+            "genre": "Documentário",
+            "duration": 120
         },
         {
             "id": 7,
@@ -67,18 +67,18 @@
             "title": "La Esperanza",
             "category": "2D",
             "censorship": "12 years",
-            "genero": "Drama",
-            "duracao": 98
+            "genre": "Drama",
+            "duration": 98
         },
         {
             "id": 8,
-            "src": "/public/assets/images/Cards filme/Card - O nexus do tempo.png",
+            "src": "/public/assets/images/Cards filmes/Card - O nexus do tempo.png",
             "alt": "Imagem do filme O nexus do tempo",
             "title": "O nexus do tempo",
             "category": "3D",
             "censorship": "10 years",
-            "genero": "Ficcção Científica",
-            "duracao": 105
+            "genre": "Ficcção Científica",
+            "duration": 105
         }
     ]
 }
