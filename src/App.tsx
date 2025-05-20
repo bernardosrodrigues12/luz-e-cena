@@ -1,13 +1,13 @@
 import Header from './components/Header'
 import Banner from "./components/Banner";
-import Link from "./components/Link";
+import MovieSection from './components/MovieSection';
 
 function App() {
   return (
     <>
-    <Header/>
+    <Header />
     <Banner src="../public/assets/images/Banner Desktop.png" alt="Banner"/>
-    <Link  href="/" target="_blank">Link</Link>
+    <MovieSection />
     </>
 )
 }
